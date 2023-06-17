@@ -5,7 +5,6 @@ export default defineConfig({
     browser: {
       enabled: true,
       provider: "playwright",
-      // Try commenting this line out:
       slowHijackESM: false,
       name: "chromium",
     },

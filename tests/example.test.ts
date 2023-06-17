@@ -3,6 +3,6 @@ import { myIsEqual } from "../src/example";
 
 describe("test", () => {
   test("case", () => {
-    expect(myIsEqual(1, 1)).toBeTruthy();
+    expect(myIsEqual(1, 1)).toBeFalsy();
   });
 });
